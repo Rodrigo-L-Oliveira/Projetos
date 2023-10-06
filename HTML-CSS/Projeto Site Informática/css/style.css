@@ -1,0 +1,231 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #13c4af;
+    display: flex;
+}
+
+.topo {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.logo{
+    margin-right: 150px;
+}
+
+.tamanho {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.btn1{
+    width: 50px;
+    height: 60px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: #11b3a0;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.btn1 ion-icon{
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
+
+.btn1:hover{
+    background-color: #08574e;
+}
+
+nav {
+    height: 100%;
+    height: 50px;
+    background-color: #111213;
+}
+
+#container {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_esquerda a {
+    color: gray;
+    text-decoration: none;
+    font-weight: normal;
+    transition: .2s ease;
+}
+
+.cont_esquerda a:hover{
+    color: #fff;
+}
+
+.icons {
+    margin-top: 10px;
+    width: 10%;
+    height: 30px;
+}
+
+#icon:hover{
+    color: #fff;
+}
+
+#icon {
+    color: gray;
+    width: 20%;
+    height: 20px;
+    transition: .2s ease;
+}
+
+#secao_principal {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+article{
+    width: 68%;
+    height: 500px;
+}
+
+article h2{
+    font-weight: normal;
+
+}
+
+article img{
+    width: 60%;
+    float: left;
+    margin: 10px;
+}
+
+article p{
+    text-align: justify;
+}
+
+#endereco{
+    width: 30%;
+    height: 470px;
+    background-color: #bababa;
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#endereco p{
+    color: #505050cc;
+    text-align: start;
+    margin-left: 13px;
+}
+
+#secao_secundaria{
+    width: 100%;
+    height: 220px;
+    background-color: #111213;
+    color: #bababa;
+    font-family: sans-serif;
+}
+
+.caixa_de_cadastro{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.caixa_de_cadastro h2, p{
+    color: #bababa;
+    margin: auto;
+    font-weight: normal;
+    padding: 0 0 10px;
+}
+
+.cadastro_email{
+    display: flex;
+    flex-direction: row;
+}
+
+.f1{
+    margin-right: 10px;
+}
+
+.f2{
+    margin-right: 10px;
+}
+
+.cadastro_email button{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.cadastro_email button:hover{
+    background-color: #13c4af;
+}
+
+.formulario{
+    width: 350px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: #bababa solid 1px;
+    color: #bababa;
+    font-size: 14px;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #13c4af;
+}
+
+footer p{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 15px 0;
+    color: #fff;
+}
